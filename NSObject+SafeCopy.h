@@ -25,6 +25,9 @@
 //  For more information, please refer to <http://unlicense.org/>
 //
 
+//  Available from GitHub
+//  https://github.com/tparry/NSObject-SafeCopy
+
 @interface NSObject (SafeCopy)
 
 //	Class types, returns a copy or nil
