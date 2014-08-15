@@ -31,7 +31,7 @@
 
 - (NSString*) safeStringCopy
 {
-	return [self isKindOfClass:[NSString class]] ? [self copy] : nil;
+	return [self isKindOfClass:[NSString class]] ? [self copy] : ([self respondsToSelector:@selector(stringValue)] ? [(id)self stringValue] : nil);
 }
 
 - (NSArray*) safeArrayCopy
