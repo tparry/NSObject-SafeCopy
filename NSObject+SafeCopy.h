@@ -28,6 +28,8 @@
 //  Available from GitHub
 //  https://github.com/tparry/NSObject-SafeCopy
 
+#import <Foundation/Foundation.h>
+
 @interface NSObject (SafeCopy)
 
 //	Class types, returns a copy or nil
