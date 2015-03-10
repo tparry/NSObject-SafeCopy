@@ -49,6 +49,11 @@
 	return [self isKindOfClass:[NSNumber class]] ? [self copy] : nil;
 }
 
+- (NSDate*) safeDateCopy
+{
+	return [self isKindOfClass:[NSDate class]] ? [self copy] : nil;
+}
+
 #pragma mark -
 
 - (double) safeDoubleValue

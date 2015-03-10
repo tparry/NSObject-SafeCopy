@@ -37,6 +37,7 @@
 - (NSArray*) safeArrayCopy;
 - (NSDictionary*) safeDictionaryCopy;
 - (NSNumber*) safeNumberCopy;
+- (NSDate*) safeDateCopy;
 
 //	Primitive types, returns value or 0
 //	(for primitives not listed, instead call -safeNumberCopy then the accessor)
